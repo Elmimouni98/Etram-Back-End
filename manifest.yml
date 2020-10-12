@@ -1,0 +1,9 @@
+applications:
+- name: Etram2
+  path: target/Etram2.jar
+  domain: cfapps.io
+  memory: 1G
+  instances: 1
+  services:
+    - mysql
+
